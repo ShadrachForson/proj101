@@ -1,0 +1,66 @@
+<!Doctype html>
+<html xml:lang>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1.0/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>
+            FOUR OPERAND CALCULATOR
+        </title>
+        <link src="bootstrap/bootstrap.css">
+        <link src="bootstrap/bootstrap.js">
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <p ><h3 style="font:caption"> FOUR OPERAND CALCULATOR</h3></p>
+        <input type="number" id="term_1" placeholder ="Input the first term">
+        
+        <input type="number" id="term_2"  placeholder ="Input the second term">
+
+        </div>
+        <br>
+        <br>
+        
+        </br>
+        </br>
+        <!-- span showing result of computation of inputs from Textbox 1 and Textbox 2 -->
+        <span id="result" >
+            
+               
+        </span>
+        </br>
+        </br>
+       <!--button group for storing operands--> </br>
+       <audio id="audio" src="soundfx/mixkit-fast-double-click-on-mouse-275.wav" autoplay="false" ></audio>
+       <div class="container col-sm-12">
+        <input type="button" onclick="add()"      onclick="playSound()" id="addition"       value="ADD">
+        <input type="button" onclick="subtract()" onclick="playSound()" id="subtraction"    value="SUBTRACT">
+        <input type="button" onclick="divide()"   onclick="playSound()" id="division"       value="DIVIDE">
+        <input type="button" onclick="multiply()" onclick="playSound()" id="multiplication" value="MULTIPLY">
+        </div>
+        
+        
+       
+               
+    <script src="index.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer id="footer" onload="showDate()"> <em></em> &copy; <script>document.write(new Date().getFullYear())</script> shadrachforson@gmail.com
+    </footer>
+
+
+    
+    </body>
+    
+</html>

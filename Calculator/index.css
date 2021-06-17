@@ -1,0 +1,30 @@
+span{background-color : rgb(189, 192, 41);
+     color: blueviolet;
+     font-size: 50px ;
+}
+
+body{background-color: rgba(119, 0, 255, 0.384);}
+
+input[type=number]{
+    width:45%;
+    border:2px solid #aaa;
+    border-radius:2px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  input[type=number]:focus{
+    border-color:rgb(255, 251, 30);
+    box-shadow:1px 0 8px 0 rgb(109, 30, 255);
+  }
+
+  #addition,#subtraction,#division,#multiplication{
+    background-color: rgb(166, 196, 193); 
+    border: none; 
+    border-radius: 15px; 
+    color: rgb(233, 248, 17); /* Dark grey */ 
+    padding: 5px 10px
+  }
